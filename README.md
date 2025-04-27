@@ -6,7 +6,7 @@ This guide demonstrates a practical application of web scraping to address a com
 
 Here's a diagram showing the overall architecture of what we're building:
 
-![Diagram of the final project](https://media.brightdata.com/2024/04/diagram-of-the-final-project.png)
+![Diagram of the final project](https://github.com/luminati-io/scrapy-web-scraping/blob/main/images/diagram-of-the-final-project.png)
 
 Here is the plan:
 
@@ -70,7 +70,7 @@ Currently, the `spiders` folder is empty, but we'll populate it next.
 
 To gather homework information, we need a spider that logs into the school system and navigates to the homework assignments page:
 
-![diagram showing the process of creating a spider and navigating to scrape the data](https://media.brightdata.com/2024/04/diagram-showing-the-process-of-creating-a-spider-and-navigating-to-scrape-the-data.png)
+![diagram showing the process of creating a spider and navigating to scrape the data](https://github.com/luminati-io/scrapy-web-scraping/blob/main/images/diagram-showing-the-process-of-creating-a-spider-and-navigating-to-scrape-the-data.png)
 
 Use the Scrapy CLI to generate a spider. From the `school-scraper/school_scraper` directory, run:
 

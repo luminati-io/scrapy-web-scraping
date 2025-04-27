@@ -498,7 +498,7 @@ For dynamic content, consider scheduling your Scrapy spiders to run regularly an
 
 ### CAPTCHAs
 
-CAPTCHAs are security mechanisms that display distorted text or images that humans must identify to proceed. They're specifically designed to block automated scraping tools.
+[CAPTCHAs](https://brightdata.com/blog/web-data/what-is-a-captcha) are security mechanisms that display distorted text or images that humans must identify to proceed. They're specifically designed to block automated scraping tools.
 
 While our example doesn't use CAPTCHAs, you might encounter them in real-world applications. One approach is to create a Scrapy middleware that downloads the CAPTCHA image and uses OCR (Optical Character Recognition) libraries to convert it to text.
 
@@ -510,9 +510,9 @@ You may need to maintain session state or manipulate cookies during scraping. Sc
 
 ### IP Blocking
 
-Many websites implement IP blocking to prevent excessive requests from a single source. If a site detects unusual patterns of requests (like those from a scraping bot), it may temporarily or permanently block your IP address.
+Many websites implement [IP blocking](https://brightdata.com/blog/proxy-101/how-to-bypass-an-ip-ban) to prevent excessive requests from a single source. If a site detects unusual patterns of requests (like those from a scraping bot), it may temporarily or permanently block your IP address.
 
-If you encounter IP blocking, consider using rotating IP addresses or a proxy service to distribute your requests across multiple IPs.
+If you encounter IP blocking, consider using [rotating IP addresses](https://brightdata.com/solutions/rotating-proxies) to distribute your requests across multiple IPs.
 
 ## Summary
 
